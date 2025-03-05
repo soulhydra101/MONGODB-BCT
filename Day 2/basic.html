@@ -1,0 +1,20 @@
+
+db.students.aggregate([
+  {
+    $project: {
+        _id: "$roll",
+        name: 1,
+      updatedMarks: { $add: ["$marks", 10] }
+    }
+  }
+])
+
+db.students.aggregate([
+  {
+    $project: {
+        _id: "$roll",
+        name: 1,
+      reducedMarks: { $subtract: ["$marks", 5] }
+    }
+  }
+])
