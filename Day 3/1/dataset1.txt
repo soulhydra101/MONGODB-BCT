@@ -1,0 +1,16 @@
+db.students.insertMany([
+  { name: "Alice", roll: 11, age: 20, class: 10, marks: 85 },
+  { name: "Alice", roll: 11, age: 20, class: 11, marks: 95 },
+  
+  { name: "Bob", roll: 12, age: 21, class: 10, marks: 80 },
+  { name: "Bob", roll: 12, age: 21, class: 11, marks: 75 },
+  
+  { name: "Charlie", roll: 13, age: 22, class: 10, marks: 90 },
+  { name: "Charlie", roll: 13, age: 22, class: 11, marks: 85 },
+
+  { name: "David", roll: 14, age: 23, class: 10, marks: 88 },
+  { name: "David", roll: 14, age: 23, class: 11, marks: 92 },
+
+  { name: "Eve", roll: 15, age: 20, class: 10, marks: 95 },
+  { name: "Eve", roll: 15, age: 20, class: 11, marks: 98 }
+])
